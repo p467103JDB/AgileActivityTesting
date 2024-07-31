@@ -1,0 +1,85 @@
+html { height: 100%; }
+body { min-height: 100%; margin: 0;}
+
+/*  https://readlearncode.com/code-and-stuff/creating-buttons-from-ul-element/ 
+    https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox
+    https://www.w3schools.com/css/css3_user_interface.asp
+
+*/
+
+
+title {
+    background-color: aquamarine;
+}
+
+header{
+    height: 50px;
+    background: lightcyan;
+    text-align: center;
+}
+
+main {
+    height: 1%;
+}
+
+footer {
+    height: 50px;
+    background: gold;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+body {
+    display: table;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+body > footer {
+    display: table-row;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+  .flex-container {
+    display: flex;
+    background-color: black;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+#flex-container > div a{
+    list-style: none;
+    text-align: center;
+    background-color: #4e4e4e;
+    margin-right: 0px;
+    width: 10%;
+    line-height: 60px;
+  }
+
+#flex-container > div a{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+  }
+
+#flex-container > div a:hover {
+    text-decoration: none;
+    color: #000000;
+    background-color: #33B5E5;
+  }
+
+
